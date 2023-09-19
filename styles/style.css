@@ -23,6 +23,7 @@ body {
 }
 
 .imagem {
+    width: 50%;
     border-radius: 15px;
 }
 
@@ -89,7 +90,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 30%;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -112,23 +113,4 @@ body {
     text-align: center;
     font-family: var(--fonte-primaria);
     font-size: 1.5rem;
-}
-
-@media (min-width: 1200px) {
-    .cabecalho {
-        padding: 10%;
-    }
-
-    .cabecalho_menu {
-        justify-content: center;
-    }
-    
-    .apresentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-
-    .apresentacao__conteudo {
-        width: auto;
-    }
 }
